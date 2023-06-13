@@ -6,6 +6,14 @@ import NewSpeakers from "../HomeTwo/NewSpeakers";
 const SpeakersAmsLegal = () => {
   const cardData = [
     {
+      name: "Dr Rob Vossen",
+      desg: " Director",
+      company: "CEG - Competition Economists Group",
+      country: "Netherlands",
+      image: "/images/Rob_Vossen.jpg",
+      linkedIn: "https://www.linkedin.com/in/rob-vossen-871945a/",
+    },
+    {
       name: "Gary Brown",
       desg: " Chief Privacy Officer",
       company: "Westinghouse Electric Company",
@@ -18,7 +26,7 @@ const SpeakersAmsLegal = () => {
       desg: "Partner",
       company: "Flynn O'Driscoll LLP",
       country: "Ireland",
-      image: "/images/a-l-speaker84.jpg",
+      image: "/images/Eoin_Cunneen.jpg",
       linkedIn: "https://www.linkedin.com/in/eoincunneen/",
     },
     {
@@ -26,7 +34,7 @@ const SpeakersAmsLegal = () => {
       desg: "Partner",
       company: " Flynn O'Driscoll LLP",
       country: "Ireland",
-      image: "/images/a-l-speaker83.png",
+      image: "/images/David_Curran.jpg",
       linkedIn: "https://www.linkedin.com/in/david-curran-94197b77/",
     },
     {

@@ -86,7 +86,6 @@ const SpeakersForm = ({
         postPayment();
       },
     };
-
     const rzpay = new Razorpay(options);
     setLoading(false);
     rzpay.open();
@@ -236,7 +235,7 @@ const SpeakersForm = ({
       setShowPayment(true);
 
       if (formValues.payment === "Razorpay") {
-        setTimeout(displayRazorpay, 700);
+        setTimeout(displayRazorpay, 300);
       }
     } //   info =await info.json();
     // console.log(info, "info");

@@ -11,6 +11,14 @@ import PlatinumSpon from "../../HomeTwo/PlatinumSpon";
 const AmsterdamLegal = () => {
   const cardData = [
     {
+      name: "Dr Rob Vossen",
+      desg: " Director",
+      company: "CEG - Competition Economists Group",
+      country: "Netherlands",
+      image: "/images/Rob_Vossen.jpg",
+      linkedIn: "https://www.linkedin.com/in/rob-vossen-871945a/",
+    },
+    {
       name: "Gary Brown",
       desg: " Chief Privacy Officer",
       company: "Westinghouse Electric Company",
@@ -23,7 +31,7 @@ const AmsterdamLegal = () => {
       desg: "Partner",
       company: "Flynn O'Driscoll LLP",
       country: "Ireland",
-      image: "/images/a-l-speaker84.jpg",
+      image: "/images/Eoin_Cunneen.jpg",
       linkedIn: "https://www.linkedin.com/in/eoincunneen/",
     },
     {
@@ -31,7 +39,7 @@ const AmsterdamLegal = () => {
       desg: "Partner",
       company: " Flynn O'Driscoll LLP",
       country: "Ireland",
-      image: "/images/a-l-speaker83.png",
+      image: "/images/David_Curran.jpg",
       linkedIn: "https://www.linkedin.com/in/david-curran-94197b77/",
     },
     {
@@ -347,7 +355,10 @@ const AmsterdamLegal = () => {
   ];
   const attending = [
     {
-      image: "images/a-l-attendees83.png",
+      image: "images/CEG_Logo_RGB_Peach.png",
+    },
+    {
+      image: "images/Flynn O'Driscoll LLP-white background.jpg",
     },
     {
       image: "images/a-l-attendees84.jpg",
