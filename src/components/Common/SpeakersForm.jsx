@@ -298,7 +298,7 @@ const SpeakersForm = ({
 
     // if ((values.voucher)) {
     //   console.log("first")
-    //     (values.voucher !== "GLA-AMS-20" || values.voucher !== "GLA-AMS-30") ?
+    //     (values.voucher !== "GLA-AMS-20" || values.voucher !== "") ?
     //   // console.log("second")
     //     errors.voucher = "Please check the voucher code ":errors.voucher=""
 

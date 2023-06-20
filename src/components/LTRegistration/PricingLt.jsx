@@ -98,12 +98,12 @@ const PricingLt = ({ conf }) => {
       exhiPay = 0.8 * exhiPay;
       accessPay = 0.8 * accessPay;
     }
-    if (formValues.voucher === "GLA-AMS-30") {
-      delegatePay = 0.7 * delegatePay;
-      speakerPay = 0.7 * speakerPay;
-      exhiPay = 0.7 * exhiPay;
-      accessPay = 0.7 * accessPay;
-    }
+    // if (formValues.voucher === "GLA-AMS-30") {
+    //   delegatePay = 0.7 * delegatePay;
+    //   speakerPay = 0.7 * speakerPay;
+    //   exhiPay = 0.7 * exhiPay;
+    //   accessPay = 0.7 * accessPay;
+    // }
     if (formValues.voucher === "GLA-AMS-500") {
       speakerPay = 500 * formValues.passes;
     }
@@ -248,7 +248,7 @@ const PricingLt = ({ conf }) => {
               </button>
             </div>
             <p style={{ color: "black", fontWeight: 600 }}>
-              Get voucher code to avail 20% off till 15 June 2023
+              Get voucher code to avail 20% off till 30 June 2023
             </p>
             <h5>Benefits</h5>
             <ul>
@@ -274,21 +274,26 @@ const PricingLt = ({ conf }) => {
               </button>
             </div>
             <p style={{ color: "black", fontWeight: 600 }}>
-              Get voucher code to avail 20% off till 15 June 2023
+              Get voucher code to avail 20% off till 30 June 2023
             </p>
             <h5>Benefits</h5>
             <ul>
               <li>
                 {" "}
-                1 Speaking slot as per the defined topics in the conference.
+                	1 Speaking slot as per the defined topics in the conference.
               </li>
-              <li>One on One Networking Session</li>
-              <li>30 % discount on an additional delegate pass. </li>
-              <li>Promotion on Social Media platforms</li>
+              <li>Meet with 150-200 Legal Professionals.</li>
+              <li>Access to all program. </li>
+              <li>Lunch & Coffee during the conference.</li>
               <li>
-                Logo in the pre marketing materials prior/during the conference.
+              Conference Bag (Accessories & Goodies).
               </li>
+              <li>Participation Certificate.</li>
+              <li>One on One Networking Session.</li>
+              <li>Promotion on Social Media platforms.</li>
+              <li>Logo in the pre marketing materials prior/during the conference.</li>
               <li>Access to attendee’s list post conference.</li>
+              <li>We will publish your firms Bio (services) in our annual Magazine(A4 Size) as well.</li>
             </ul>
           </div>
 
@@ -306,7 +311,7 @@ const PricingLt = ({ conf }) => {
               </button>
             </div>
             <p style={{ color: "black", fontWeight: 600 }}>
-              Get voucher code to avail 20% off till 15 June 2023
+              Get voucher code to avail 20% off till 30 June 2023
             </p>
             <h5>Benefits</h5>
             <ul>

@@ -33,7 +33,7 @@ class SpeakersDubaiLegal extends React.Component {
         linkedIn: "https://www.linkedin.com/in/astrid-gobardhan-94030221/",
       },
       {
-        name: "Antonin Sobek",
+        name: "Alessio Santoriello",
         desg: "General Counsel",
         company: "ZTE Italia",
         country: " Italy",

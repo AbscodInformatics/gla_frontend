@@ -179,7 +179,7 @@ const SponsorLt = ({ conf }) => {
               }}
             >
               <div style={{ display: "flex", justifyContent: "space-between" }}>
-                <h3> Lunch Sponsor - $3999</h3>
+                <h3> Lunch Sponsor - $ 3200</h3>
 
                 <button
                   onClick={() => setOpenLunch(!openLunch)}
@@ -191,10 +191,18 @@ const SponsorLt = ({ conf }) => {
 
               <h5>Benefits</h5>
               <ul>
-                <li>2 Complimentary Delegate Passes</li>
-                <li>Logo listed on general conference Banner </li>
+                <li>Two Complimentary Delegate Passes</li>
+                <li>One Speaker Pass</li>
+                <li>Logo listed on general conference banner</li>
+                <li>
+                  Branding/Promotion as a Lunch Sponsor on event backdrop,
+                  website, and social media sites like LinkedIn etc.
+                </li>
                 <li>A4-Advert in conference Magazine</li>
-                <li>Post-event attendee registration mailing list</li>
+                <li>
+                  We will share the participants list one week before/after the
+                  event with all the contact details.
+                </li>
               </ul>
             </div>
 
@@ -313,7 +321,7 @@ const SponsorLt = ({ conf }) => {
                   Type={`Bronze sponsor for ${conf} event`}
                   updateData={() => setOpenBronze(!openBronze)}
                   currency="USD"
-                  amount="5999"
+                  amount="4800"
                   loading={loading}
                   setLoadingTrue={() => setLoading(true)}
                   setLoadingFalse={() => setLoading(false)}
@@ -349,7 +357,7 @@ const SponsorLt = ({ conf }) => {
                   formName={`Become a Lanyard sponsor for ${conf} event Amsterdam`}
                   currency="USD"
                   Type={`Lanyard sponsor for ${conf} event`}
-                  amount="2499"
+                  amount="2000"
                   updateData={() => setOpenLanyard(!openLanyard)}
                   loading={loading}
                   setLoadingTrue={() => setLoading(true)}
@@ -367,7 +375,7 @@ const SponsorLt = ({ conf }) => {
                   formName={`Become a Memento sponsor for ${conf} event Amsterdam`}
                   currency="USD"
                   Type={`Memento sponsor for ${conf} event`}
-                  amount="2999"
+                  amount="2400"
                   updateData={() => setOpenMemento(!openMemento)}
                   loading={loading}
                   setLoadingTrue={() => setLoading(true)}
@@ -385,7 +393,7 @@ const SponsorLt = ({ conf }) => {
                   formName={`Become a Lunch sponsor for ${conf} event Amsterdam`}
                   currency="USD"
                   Type={`Lunch sponsor for ${conf} event`}
-                  amount="3999"
+                  amount=" 3200"
                   updateData={() => setOpenLunch(!openLunch)}
                   loading={loading}
                   setLoadingTrue={() => setLoading(true)}
@@ -418,11 +426,18 @@ const SponsorLt = ({ conf }) => {
             </div>
             <div className="col-lg-4 col-md-6 ">
               <div className="pricing-plan">
-                <h3>
+              <h3>
                   {" "}
-                  LANYARD SPONSOR<span>$2499</span>
+                  LANYARD SPONSOR<p>
+                    <span>
+                      <strike style={{ text: "red", "font-size": "15px" }}>
+                        $2499
+                      </strike>
+                      <b style={{ text: "red", "font-size": "30px" }}>$2000</b>
+                    </span>
+                  </p>
                 </h3>
-
+                <h4 style={{ color: "red", text: "7px" }}>Sold Out</h4>
                 <ul className="pricing-content">
                   {/* <li><b style={{fontSize:"17px"}}>
                                         Features with  Landyard sponsor</b></li>*/}
@@ -445,8 +460,15 @@ const SponsorLt = ({ conf }) => {
             <div className="col-lg-4 col-md-6 ">
               <div className="pricing-plan">
                 <h3>
-                  {" "}
-                  MEMENTO SPONSORSHIP<span>$2999</span>
+                  MEMENTO SPONSORSHIP
+                  <p>
+                    <span >
+                      <strike style={{ text: "red", "font-size": "15px" }}>
+                        $2999
+                      </strike>
+                      <b style={{ text: "red", "font-size": "30px" }}>$2400</b>
+                    </span>
+                  </p>
                 </h3>
 
                 <ul className="pricing-content">
@@ -487,7 +509,7 @@ const SponsorLt = ({ conf }) => {
                   <th style={style}>Platinum sponsor-$17999</th>
                   <th style={style}>Gold sponsor-$13999</th>
                   <th style={style}>Silver sponsor-$9999</th>
-                  <th style={style}>Bronze sponsor-$5999</th>
+                  <th style={style}>Bronze sponsor-$4800</th>
                 </tr>
 
                 <tr>

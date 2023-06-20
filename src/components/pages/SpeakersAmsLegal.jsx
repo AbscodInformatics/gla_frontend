@@ -6,6 +6,14 @@ import NewSpeakers from "../HomeTwo/NewSpeakers";
 const SpeakersAmsLegal = () => {
   const cardData = [
     {
+      name: "James Hall",
+      desg: "CEO, Founder and General Counsel",
+      company: "Global GC",
+      country: "USA",
+      image: "/images/James Hall.jpg",
+      linkedIn: "https://www.linkedin.com/in/james-hall-98868a7/",
+    },
+    {
       name: "Dr Rob Vossen",
       desg: " Director",
       company: "CEG - Competition Economists Group",

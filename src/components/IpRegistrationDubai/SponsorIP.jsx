@@ -179,7 +179,7 @@ const SponsorIP = ({ conf }) => {
               }}
             >
               <div style={{ display: "flex", justifyContent: "space-between" }}>
-                <h3> Lunch Sponsor - $3999</h3>
+                <h3> Lunch Sponsor - $ 3200</h3>
 
                 <button
                   onClick={() => setOpenLunch(!openLunch)}
@@ -310,7 +310,7 @@ const SponsorIP = ({ conf }) => {
                   Type={`Bronze sponsor for ${conf} event`}
                   updateData={() => setOpenBronze(!openBronze)}
                   currency="USD"
-                  amount="5999"
+                  amount="4800"
                   loading={loading}
                   setLoadingTrue={() => setLoading(true)}
                   setLoadingFalse={() => setLoading(false)}
@@ -346,7 +346,7 @@ const SponsorIP = ({ conf }) => {
                   formName={`Become a Lanyard sponsor for ${conf} event Dubai`}
                   currency="USD"
                   Type={`Lanyard sponsor for ${conf} event`}
-                  amount="2499"
+                  amount="2000"
                   updateData={() => setOpenLanyard(!openLanyard)}
                   loading={loading}
                   setLoadingTrue={() => setLoading(true)}
@@ -364,7 +364,7 @@ const SponsorIP = ({ conf }) => {
                   formName={`Become a Memento sponsor for ${conf} event Dubai`}
                   currency="USD"
                   Type={`Memento sponsor for ${conf} event`}
-                  amount="2999"
+                  amount="2400"
                   updateData={() => setOpenMemento(!openMemento)}
                   loading={loading}
                   setLoadingTrue={() => setLoading(true)}
@@ -382,7 +382,7 @@ const SponsorIP = ({ conf }) => {
                   formName={`Become a Lunch sponsor for ${conf} event Dubai`}
                   currency="USD"
                   Type={`Lunch sponsor for ${conf} event`}
-                  amount="3999"
+                  amount=" 3200"
                   updateData={() => setOpenLunch(!openLunch)}
                   loading={loading}
                   setLoadingTrue={() => setLoading(true)}
@@ -415,9 +415,16 @@ const SponsorIP = ({ conf }) => {
             </div>
             <div className="col-lg-4 col-md-6 ">
               <div className="pricing-plan">
-                <h3>
+              <h3>
                   {" "}
-                  LANYARD SPONSOR<span>$2499</span>
+                  LANYARD SPONSOR<p>
+                    <span>
+                      <strike style={{ text: "red", "font-size": "15px" }}>
+                        $2499
+                      </strike>
+                      <b style={{ text: "red", "font-size": "30px" }}>$2000</b>
+                    </span>
+                  </p>
                 </h3>
 
                 <ul className="pricing-content">
@@ -439,9 +446,16 @@ const SponsorIP = ({ conf }) => {
             </div>
             <div className="col-lg-4 col-md-6 ">
               <div className="pricing-plan">
-                <h3>
-                  {" "}
-                  MEMENTO SPONSORSHIP<span>$2999</span>
+              <h3>
+                  MEMENTO SPONSORSHIP
+                  <p>
+                    <span >
+                      <strike style={{ text: "red", "font-size": "15px" }}>
+                        $2999
+                      </strike>
+                      <b style={{ text: "red", "font-size": "30px" }}>$2400</b>
+                    </span>
+                  </p>
                 </h3>
 
                 <ul className="pricing-content">
@@ -479,7 +493,7 @@ const SponsorIP = ({ conf }) => {
                   <th style={style}>Platinum sponsor-$17999</th>
                   <th style={style}>Gold sponsor-$13999</th>
                   <th style={style}>Silver sponsor-$9999</th>
-                  <th style={style}>Bronze sponsor-$5999</th>
+                  <th style={style}>Bronze sponsor-$4800</th>
                 </tr>
 
                 <tr>
