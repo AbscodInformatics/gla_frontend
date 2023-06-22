@@ -49,6 +49,7 @@ const SpeakersForm = ({
     const res = await loadScript(
       "https://checkout.razorpay.com/v1/checkout.js"
     );
+    
     if (!res) {
       alert("Rajor pay SDK failed to load ");
       return;

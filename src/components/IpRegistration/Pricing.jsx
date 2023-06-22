@@ -244,9 +244,9 @@ const PricingPage = ({ conf }) => {
                 Buy Ticket Now
               </button>
             </div>
-            <p style={{ color: "black", fontWeight: 600 }}>
+            {/* <p style={{ color: "black", fontWeight: 600 }}>
               Get voucher code to avail 20% off till 30 June 2023
-            </p>
+            </p> */}
             <h5>Benefits</h5>
             <ul>
               <li>Meet with 150-200 IP Professionals</li>
@@ -270,9 +270,9 @@ const PricingPage = ({ conf }) => {
                 Buy Ticket Now
               </button>
             </div>
-            <p style={{ color: "black", fontWeight: 600 }}>
+            {/* <p style={{ color: "black", fontWeight: 600 }}>
               Get voucher code to avail 20% off till 30 June 2023
-            </p>
+            </p> */}
             <h5>Benefits</h5>
             <ul>
               <li>
@@ -310,9 +310,9 @@ const PricingPage = ({ conf }) => {
                 Buy Ticket Now
               </button>
             </div>
-            <p style={{ color: "black", fontWeight: 600 }}>
+            {/* <p style={{ color: "black", fontWeight: 600 }}>
               Get voucher code to avail 20% off till 30 June 2023
-            </p>
+            </p> */}
             <h5>Benefits</h5>
             <ul>
               <li> Exhibit Table with Chairs.</li>

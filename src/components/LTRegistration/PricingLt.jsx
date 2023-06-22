@@ -125,7 +125,6 @@ const PricingLt = ({ conf }) => {
     setCocktailAmount(cocktailPay);
     setExhiAmount(exhiPay);
     setAccessAmount(accessPay);
-    console.log(formValues, "formValues");
   };
   return loading ? (
     <PreloaderPayment />
@@ -247,9 +246,9 @@ const PricingLt = ({ conf }) => {
                 Buy Ticket Now
               </button>
             </div>
-            <p style={{ color: "black", fontWeight: 600 }}>
+            {/* <p style={{ color: "black", fontWeight: 600 }}>
               Get voucher code to avail 20% off till 30 June 2023
-            </p>
+            </p> */}
             <h5>Benefits</h5>
             <ul>
               <li>Meet with 150-200 Legal Professionals</li>
@@ -273,9 +272,9 @@ const PricingLt = ({ conf }) => {
                 Buy Ticket Now
               </button>
             </div>
-            <p style={{ color: "black", fontWeight: 600 }}>
+            {/* <p style={{ color: "black", fontWeight: 600 }}>
               Get voucher code to avail 20% off till 30 June 2023
-            </p>
+            </p> */}
             <h5>Benefits</h5>
             <ul>
               <li>
@@ -310,9 +309,9 @@ const PricingLt = ({ conf }) => {
                 Buy Ticket Now
               </button>
             </div>
-            <p style={{ color: "black", fontWeight: 600 }}>
+            {/* <p style={{ color: "black", fontWeight: 600 }}>
               Get voucher code to avail 20% off till 30 June 2023
-            </p>
+            </p> */}
             <h5>Benefits</h5>
             <ul>
               <li> Exhibit Table with Chairs.</li>
