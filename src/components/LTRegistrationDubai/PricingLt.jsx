@@ -98,12 +98,12 @@ const PricingLt = ({ conf }) => {
       exhiPay = 0.8 * exhiPay;
       accessPay = 0.8 * accessPay;
     }
-    // if (formValues.voucher === "GLA-AMS-30") {
-    //   delegatePay = 0.7 * delegatePay;
-    //   speakerPay = 0.7 * speakerPay;
-    //   exhiPay = 0.7 * exhiPay;
-    //   accessPay = 0.7 * accessPay;
-    // }
+    if (formValues.voucher === "GLA-AMS-30") {
+      delegatePay = 0.7 * delegatePay;
+      speakerPay = 0.7 * speakerPay;
+      exhiPay = 0.7 * exhiPay;
+      accessPay = 0.7 * accessPay;
+    }
     if (formValues.dinner === true) {
       delegatePay = delegatePay + formValues.passes * 249;
       speakerPay = speakerPay + formValues.passes * 249;
