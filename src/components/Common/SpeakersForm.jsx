@@ -45,51 +45,59 @@ const SpeakersForm = ({
   };
 
   const displayRazorpay = async () => {
-    setLoading(true);
-    const res = await loadScript(
-      "https://checkout.razorpay.com/v1/checkout.js"
-    );
-    
-    if (!res) {
-      alert("Rajor pay SDK failed to load ");
-      return;
-    }
-    const data = await fetch(
-      `https://gla-backend-new-dt4z.onrender.com/razorpay/${currency}/${amount}`,
-
-      {
-        method: "post",
+    try {
+      setLoading(true);
+      const res = await loadScript(
+        "https://checkout.razorpay.com/v1/checkout.js"
+      );
+      if (!res) {
+        alert("Rajor pay SDK failed to load ");
+        return;
       }
-    ).then((t) => t.json());
-    if (data && Object.keys(response).length === 0) {
-      failedPayments();
+      const data = await fetch(
+        `https://gla-backend-new-dt4z.onrender.com/razorpay/${currency}/${amount}`,
+
+        {
+          method: "post",
+          headers: {
+            "Content-Type": "appliation/json",
+          },
+        }
+      ).then((t) => t.json());
+      if (data && Object.keys(response).length === 0) {
+        failedPayments();
+      }
+
+      paymentRequestData = data;
+
+      const options = {
+        key: "rzp_live_UeiEPxqvCQonX9",
+        amount: data.amount.toString(),
+        currency: data.currency,
+        name: "Global legal association",
+        description: "Transaction",
+        timeout: "300",
+        order_id: data.id,
+
+        handler: (res) => {
+          response = res;
+          response.bill_id = res.razorpay_order_id;
+          console.log(response);
+          // setPaid(true)
+          setTimeout(() => {
+            setPaid(false);
+          }, 2100);
+          postPayment();
+        },
+      };
+      const rzpay = new Razorpay(options);
+      setLoading(false);
+      rzpay.open();
+    } catch (err) {
+      console.log("err in payment", err);
+    } finally {
+      setLoading(false);
     }
-
-    paymentRequestData = data;
-
-    const options = {
-      key: "rzp_live_UeiEPxqvCQonX9",
-      amount: data.amount.toString(),
-      currency: data.currency,
-      name: "Global legal association",
-      description: "Transaction",
-      timeout: "300",
-      order_id: data.id,
-
-      handler: (res) => {
-        response = res;
-        response.bill_id = res.razorpay_order_id;
-        console.log(response);
-        // setPaid(true)
-        setTimeout(() => {
-          setPaid(false);
-        }, 2100);
-        postPayment();
-      },
-    };
-    const rzpay = new Razorpay(options);
-    setLoading(false);
-    rzpay.open();
   };
 
   const displayPaypal = () => {

@@ -9,6 +9,14 @@ import PlatinumSpon from "../../HomeTwo/PlatinumSpon";
 const AmsterdamIp = () => {
   const cardData = [
     {
+      name: "John Pryor",
+      desg: "CEO / Founder",
+      company: "Exalt IP Business Intellectual Property",
+      country: "UK",
+      image: "/images/John Pryor.jpg",
+      linkedIn: "https://www.linkedin.com/in/john-pryor-gb/",
+    },
+    {
       name: "Ayman Al-Wadi",
       desg: "Group Executive Chairman",
       company: "AW HOLDING INT'L",
@@ -99,6 +107,9 @@ const AmsterdamIp = () => {
     },
   ];
   const attending = [
+    {
+      image: "images/Exalt-IP-4.3.png",
+    },
     {
       image: "images/a-l-attendees21.png",
     },

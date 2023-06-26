@@ -7,6 +7,14 @@ import LaxDiv from "../Shared/LaxDiv";
 const SpeakersAmsterdamIP = () => {
   const cardData = [
     {
+      name: "John Pryor",
+      desg: "CEO / Founder",
+      company: "Exalt IP Business Intellectual Property",
+      country: "UK",
+      image: "/images/John Pryor.jpg",
+      linkedIn: "https://www.linkedin.com/in/john-pryor-gb/",
+    },
+    {
       name: "Ayman Al-Wadi",
       desg: "Group Executive Chairman",
       company: "AW HOLDING INT'L",

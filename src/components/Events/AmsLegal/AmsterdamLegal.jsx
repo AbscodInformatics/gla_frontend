@@ -11,6 +11,14 @@ import PlatinumSpon from "../../HomeTwo/PlatinumSpon";
 const AmsterdamLegal = () => {
   const cardData = [
     {
+      name: "John Pryor",
+      desg: "CEO / Founder",
+      company: "Exalt IP Business Intellectual Property",
+      country: "UK",
+      image: "/images/John Pryor.jpg",
+      linkedIn: "https://www.linkedin.com/in/john-pryor-gb/",
+    },
+    {
       name: "James Hall",
       desg: "CEO, Founder and General Counsel",
       company: "Global GC",
@@ -362,6 +370,21 @@ const AmsterdamLegal = () => {
     },
   ];
   const attending = [
+    {
+      image: "images/Exalt-IP-4.3.png",
+    },
+    {
+      image: "images/D&T Juris.png",
+    },
+    {
+      image: "images/Fieldfisher.png",
+    },
+    {
+      image: "images/Ripen Marine Contractors Ltd.jpg",
+    },
+    {
+      image: "images/SDSAdvocates.png",
+    },
     {
       image: "images/CEG_Logo_RGB_Peach.png",
     },

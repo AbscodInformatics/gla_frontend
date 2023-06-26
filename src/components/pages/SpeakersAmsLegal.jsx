@@ -6,6 +6,14 @@ import NewSpeakers from "../HomeTwo/NewSpeakers";
 const SpeakersAmsLegal = () => {
   const cardData = [
     {
+      name: "John Pryor",
+      desg: "CEO / Founder",
+      company: "Exalt IP Business Intellectual Property",
+      country: "UK",
+      image: "/images/John Pryor.jpg",
+      linkedIn: "https://www.linkedin.com/in/john-pryor-gb/",
+    },
+    {
       name: "James Hall",
       desg: "CEO, Founder and General Counsel",
       company: "Global GC",
