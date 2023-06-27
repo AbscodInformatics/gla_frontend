@@ -6,6 +6,14 @@ import NewSpeakers from "../HomeTwo/NewSpeakers";
 const SpeakersAmsLegal = () => {
   const cardData = [
     {
+      name: "Ritah Sarwari",
+      desg: "Legal Counsel",
+      company: "ING",
+      country: "Netherlands",
+      image: "/images/Ritah Sarwari.jpg",
+      linkedIn: "https://www.linkedin.com/in/ritahsarwari/",
+    },
+    {
       name: "John Pryor",
       desg: "CEO / Founder",
       company: "Exalt IP Business Intellectual Property",

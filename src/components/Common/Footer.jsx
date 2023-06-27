@@ -81,7 +81,7 @@ const Footer = () => {
                 style={{ cursor: "pointer" }}
                 onClick={() =>
                   window.open(
-                    "https://www.linkedin.com/in/global-legal-association-68a89b249",
+                    "https://www.linkedin.com/company/global-legal-association/posts/?feedView=all",
                     "_blank"
                   )
                 }
