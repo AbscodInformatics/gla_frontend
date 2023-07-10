@@ -349,7 +349,8 @@ const PricingLt = ({ conf }) => {
         </div>
         <div style={{ marginTop: "30px" }}>
           <div style={{ display: "flex", justifyContent: "space-between" }}>
-            <h3> Dinner & Cocktail Pass- $249</h3>
+            <h3> Dinner & Cocktail Pass- $249
+            </h3>
 
             <button
               onClick={() => setOpenCoctail(!openCoctail)}
@@ -358,6 +359,8 @@ const PricingLt = ({ conf }) => {
               Buy Ticket Now
             </button>
           </div>
+          <h6 >•	Register for Gala Dinner on September 04th 2023.</h6>
+
         </div>
       </div>
     </section>

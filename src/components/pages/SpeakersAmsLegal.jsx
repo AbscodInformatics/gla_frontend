@@ -6,6 +6,30 @@ import NewSpeakers from "../HomeTwo/NewSpeakers";
 const SpeakersAmsLegal = () => {
   const cardData = [
     {
+      name: "Julius Handler",
+      desg: "Associate",
+      company: "Morrison & Foerster LLP",
+      country: "UK",
+      image: "/images/Julius Handler.jpg",
+      linkedIn: "https://www.mofo.com/people/julius-handler",
+    },
+    {
+      name: "Avi Ordo",
+      desg: "Partner",
+      company: "S. Horowitz & Co.",
+      country: "Israel",
+      image: "/images/Adv. Avi Ordo - Color backround.jpg",
+      linkedIn: "https://www.linkedin.com/in/avi-ordo-60405114/",
+    },
+    {
+      name: "Dr. Wim Maas",
+      desg: "Partner",
+      company: "Taylor Wessing",
+      country: "Netherlands",
+      image: "/images/Maas-Wim-sit-mobile.jpg",
+      linkedIn: "https://www.taylorwessing.com/en/people/netherlands/amsterdam/wim-maas",
+    },
+    {
       name: "Ritah Sarwari",
       desg: "Legal Counsel",
       company: "ING",

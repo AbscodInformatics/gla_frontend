@@ -609,19 +609,6 @@ const MainSponsorForm = ({
                   ( Debit/Credit cards also accepted here )
                 </div>
               </label>
-              <div className="form-check form-check-inline">
-                <input
-                  className="form-check-input"
-                  type="radio"
-                  id="Paypal"
-                  value="Paypal"
-                  name="payment"
-                  onChange={handleChange}
-                />
-                <label className="form-check-label" for="no">
-                  Paypal{" "}
-                </label>
-              </div>
               <Box className="form-check form-check-inline">
                 <input
                   className="form-check-input"
@@ -644,6 +631,20 @@ const MainSponsorForm = ({
                   </span>
                 </label>
               </Box>
+              <div className="form-check form-check-inline">
+                <input
+                  className="form-check-input"
+                  type="radio"
+                  id="Paypal"
+                  value="Paypal"
+                  name="payment"
+                  onChange={handleChange}
+                />
+                <label className="form-check-label" for="no">
+                  Paypal{" "}
+                </label>
+              </div>
+             
 
               <Box
                 sx={{

@@ -652,20 +652,6 @@ const SpeakersForm = ({
                 </div>
               </label>
 
-              <div className="form-check form-check-inline">
-                <input
-                  className="form-check-input"
-                  type="radio"
-                  id="Paypal"
-                  value="Paypal"
-                  name="payment"
-                  onChange={handleChange}
-                />
-                <label className="form-check-label" for="no">
-                  Paypal{" "}
-                  {/* <span style={{ fontSize: "13px" }}> ( preferred mode )</span> */}
-                </label>
-              </div>
               <Box
                 className="form-check form-check-inline"
                 style={{ position: "relative" }}
@@ -691,6 +677,22 @@ const SpeakersForm = ({
                   </span>
                 </label>
               </Box>
+
+              <div className="form-check form-check-inline">
+                <input
+                  className="form-check-input"
+                  type="radio"
+                  id="Paypal"
+                  value="Paypal"
+                  name="payment"
+                  onChange={handleChange}
+                />
+                <label className="form-check-label" for="no">
+                  Paypal{" "}
+                  {/* <span style={{ fontSize: "13px" }}> ( preferred mode )</span> */}
+                </label>
+              </div>
+              
               <Box
                 sx={{
                   color: "#FF2D55",

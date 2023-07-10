@@ -8,6 +8,22 @@ import PlatinumSpon from "../../HomeTwo/PlatinumSpon";
 const DubaiLegal = () => {
   const cardData = [
     {
+      name: "Cîhan Seuleiman-Morgan",
+      desg: "Chief Legal and Compliance Officer and Board Secretary",
+      company: "Airtel Mobile Commerce BV",
+      country: "UAE",
+      image: "/images/Cîhan Seuleiman-Morgan.jpg",
+      linkedIn: "https://www.linkedin.com/in/c%C3%AEhan-seuleiman-morgan-5568a22b/",
+    },
+    {
+      name: "Bijan Brahmbhatt",
+      desg: "Senior Corporate Counsel",
+      company: "Precision Drilling",
+      country: "UAE",
+      image: "/images/Bijan Brahmbhatt.jpg",
+      linkedIn: "https://www.linkedin.com/in/bijan-brahmbhatt-power-profile/",
+    },
+    {
       name: " Dr Susann Funke",
       desg: "CEO, Legal Officer",
       company: "LEX AI",
@@ -98,6 +114,9 @@ const DubaiLegal = () => {
     },
   ];
   const attending = [
+    {
+      image: "images/Precision Drilling.jpg",
+    },
     {
       image: "images/a-l-attendees82.jpg",
     },

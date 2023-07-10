@@ -342,7 +342,7 @@ const PricingPage = ({ conf }) => {
           <div style={{ marginTop: "30px" }}>
             <div style={{ display: "flex", justifyContent: "space-between" }}>
               <h3> Dinner & Cocktail Pass- $249</h3>
-
+               
               <button
                 onClick={() => setOpenCoctail(!openCoctail)}
                 className="btn btn-primary"
