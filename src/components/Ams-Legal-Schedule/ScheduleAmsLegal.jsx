@@ -166,9 +166,7 @@ const ScheduleAmsLegal = () => {
                     <li className="accordion-item">
                       <div className="schedule-info">
                         <p style={{ fontWeight: 700 }}>
-                          Session 10 : Cross border merger and acquisition (M&A)
-                          in Europe and its impact on Intellectual property
-                          rights and protection
+                          Session 10 : Arbitration In Cross-Border Merger & Acquisition Transactions.
                         </p>
                       </div>
                     </li>

@@ -43,7 +43,8 @@ const Attendees = ({ attending }) => {
                         borderRadius:
                           item.image.includes("attendees14.") ||
                           item.image.includes("attendees1.") ||
-                          item.image.includes("attendees25.")
+                          item.image.includes("attendees25.")||
+                          item.image.includes("Hill Logo.")
                             ? "0px"
                             : "20px",
                         width: "100%",

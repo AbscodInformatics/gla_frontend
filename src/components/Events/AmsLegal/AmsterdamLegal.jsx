@@ -533,7 +533,7 @@ const AmsterdamLegal = () => {
       image: "images/speakerLogo51.jpg",
     },
     {
-      image: "images/a-l-attendees2.jpg",
+      image: "images/Hill Logo.jpg",
     },
     {
       image: "images/a-l-attendees1.jpg",
