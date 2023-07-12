@@ -8,11 +8,19 @@ class SpeakersDubaiLegal extends React.Component {
   render() {
     const speakers = [
       {
+        name: "Narguiz Birk-Petersen",
+        desg: "Vice President and Regional General Counsel",
+        company: "Takeda",
+        country: "UAE",
+        image: "/images/Narguiz photo.jpg",
+        linkedIn: "https://www.linkedin.com/in/narguiz-birk-petersen-8211365/",
+      },
+      {
         name: "Cîhan Seuleiman-Morgan",
         desg: "Chief Legal and Compliance Officer and Board Secretary",
         company: "Airtel Mobile Commerce BV",
         country: "UAE",
-        image: "/images/Cîhan Seuleiman-Morgan.jpg",
+        image: "/images/Seuleiman-Morgan.jpg",
         linkedIn: "https://www.linkedin.com/in/c%C3%AEhan-seuleiman-morgan-5568a22b/",
       },
       {

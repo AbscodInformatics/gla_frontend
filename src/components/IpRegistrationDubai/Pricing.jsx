@@ -270,7 +270,7 @@ const PricingPage = ({ conf }) => {
               <div>
                 <h3> Speaker Marketing Package </h3>
                 <h5> Standard Price - $̶89̶9̶</h5>
-                <h5> Early Bird Offer - $̶6̶4̶9̶</h5>
+                <h5> Early Bird Offer - <strike>$̶6̶99</strike></h5>
                 <h4> Super Early Bird Offer $599 </h4>
               </div>
 

@@ -23,8 +23,8 @@ const AmsterdamLegal = () => {
       desg: "Partner",
       company: "S. Horowitz & Co.",
       country: "Israel",
-      image: "/images/Adv. Avi Ordo - Color backround.jpg",
-      linkedIn: "https://www.linkedin.com/in/avi-ordo-60405114/",
+      image: "/images/Avi Ordo.jpg",
+      linkedIn: "https://s-horowitz.com/lawyers/avi-ordo/",
     },
     {
       name: "Dr. Wim Maas",
