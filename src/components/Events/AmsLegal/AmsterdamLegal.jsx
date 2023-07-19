@@ -11,6 +11,14 @@ import PlatinumSpon from "../../HomeTwo/PlatinumSpon";
 const AmsterdamLegal = () => {
   const cardData = [
     {
+      name: "Neera Sharma",
+      desg: "GC & CEO",
+      company: "Sistema Smart Technologies Limited",
+      country: "India",
+      image: "/images/IMG_3849 copy (3).jpg",
+      linkedIn: "https://www.linkedin.com/in/neera-sharma-6237a03/",
+    },
+    {
       name: "Julius Handler",
       desg: "Associate",
       company: "Morrison & Foerster LLP",
@@ -402,6 +410,9 @@ const AmsterdamLegal = () => {
     },
   ];
   const attending = [
+    {
+      image: "images/Sistema Asia Logo.jpg",
+    },
     {
       image: "images/100 years english_page-0001.jpg",
     },

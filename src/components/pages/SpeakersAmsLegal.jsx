@@ -6,6 +6,14 @@ import NewSpeakers from "../HomeTwo/NewSpeakers";
 const SpeakersAmsLegal = () => {
   const cardData = [
     {
+      name: "Neera Sharma",
+      desg: "GC & CEO",
+      company: "Sistema Smart Technologies Limited",
+      country: "India",
+      image: "/images/IMG_3849 copy (3).jpg",
+      linkedIn: "https://www.linkedin.com/in/neera-sharma-6237a03/",
+    },
+    {
       name: "Julius Handler",
       desg: "Associate",
       company: "Morrison & Foerster LLP",
