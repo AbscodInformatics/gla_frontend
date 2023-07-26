@@ -7,6 +7,23 @@ import PlatinumSpon from "../../HomeTwo/PlatinumSpon";
 
 const DubaiLegal = () => {
   const cardData = [
+    
+    {
+      name: "Nicola Jackson",
+      desg: "Legal Director",
+      company: "Clyde & Co LLP",
+      country: "UAE",
+      image: "/images/NICOLA JACKSON COLOR HIGH RES.jpg",
+      linkedIn: "https://www.clydeco.com/en/people/j/nicola-jackson",
+    },
+    {
+      name: "Richard Bell",
+      desg: "Partner",
+      company: "Clyde & Co LLP",
+      country: "UAE",
+      image: "/images/bell, richard.jpg",
+      linkedIn: " https://www.clydeco.com/en/people/b/richardbell",
+    },
     {
       name: "Raza Mithani",
       desg: "Managing Partner",
@@ -131,8 +148,11 @@ const DubaiLegal = () => {
     },
   ];
   const attending = [
-    {
+    
+{
       image: "images/RazaMithaniL.jpg",
+},{
+      image: "images/Clyde.jpg",
     },
     {
       image: "images/Takeda Pharmaceuticals.jpg",
