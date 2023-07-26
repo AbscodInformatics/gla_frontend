@@ -8,6 +8,22 @@ import PlatinumSpon from "../../HomeTwo/PlatinumSpon";
 const DubaiLegal = () => {
   const cardData = [
     {
+      name: "Nicola Jackson",
+      desg: "Legal Director",
+      company: "Clyde & Co LLP",
+      country: "UAE",
+      image: "/images/NICOLA JACKSON COLOR HIGH RES.jpg",
+      linkedIn: "https://www.clydeco.com/en/people/j/nicola-jackson",
+    },
+    {
+      name: "Richard Bell",
+      desg: "Partner",
+      company: "Clyde & Co LLP",
+      country: "UAE",
+      image: "/images/bell, richard.jpg",
+      linkedIn: " https://www.clydeco.com/en/people/b/richardbell",
+    },
+    {
       name: "Narguiz Birk-Petersen",
       desg: "Vice President and Regional General Counsel",
       company: "Takeda",
@@ -122,6 +138,9 @@ const DubaiLegal = () => {
     },
   ];
   const attending = [
+    {
+      image: "images/Clyde.jpg",
+    },
     {
       image: "images/Takeda Pharmaceuticals.jpg",
     },
