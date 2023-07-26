@@ -86,11 +86,17 @@ const PricingLt = ({ conf }) => {
     let speakerPay;
     let cocktailPay;
     let accessPay;
-    let exhiPay = 2999;
+    let exhiPay = 3499;
 
-    delegatePay = formValues.passes * 699;
-    speakerPay = formValues.passes * 599;
+    delegatePay = formValues.passes * 799;
+    speakerPay = formValues.passes * 699;
     accessPay = formValues.passes * 1199;
+    if (formValues.voucher === "GLA-AMS-10") {
+      delegatePay =  delegatePay - 100;
+      speakerPay =  speakerPay - 100;
+      exhiPay = exhiPay - 100;
+      accessPay = accessPay - 100;
+    }
 
     if (formValues.voucher === "GLA-AMS-20") {
       delegatePay = 0.8 * delegatePay;
@@ -237,9 +243,15 @@ const PricingLt = ({ conf }) => {
             <div style={{ display: "flex", justifyContent: "space-between" }}>
               <div>
                 <h3> Delegate Pass </h3>
-                <h5> Standard Price - $̶9̶9̶9̶</h5>
-                <h5> Early Bird Offer - $̶7̶9̶9̶</h5>
-                <h4> Super Early Bird Offer $699 </h4>
+                <h5> Standard Price - $̶9̶9̶9</h5>
+                <h5>
+                  {" "}
+                  Early Bird Offer - $<span>799</span> (Current)
+                </h5>
+                <h5>
+                  {" "}
+                  Super Early Bird Offer $<del>699</del>(Expired)
+                </h5>
               </div>
 
               <button
@@ -268,8 +280,14 @@ const PricingLt = ({ conf }) => {
               <div>
                 <h3> Speaker Marketing Package </h3>
                 <h5> Standard Price - $̶89̶9̶</h5>
-                <h5> Early Bird Offer - <strike>$̶6̶99</strike></h5>
-                <h4> Super Early Bird Offer $599 </h4>
+                <h5>
+                  {" "}
+                  Early Bird Offer - $<span>699</span> (Current)
+                </h5>
+                <h5>
+                  {" "}
+                  Super Early Bird Offer $ <del>599</del>(Expired){" "}
+                </h5>
               </div>
 
               <button
@@ -285,20 +303,23 @@ const PricingLt = ({ conf }) => {
             <ul>
               <li>
                 {" "}
-                	1 Speaking slot as per the defined topics in the conference.
+                1 Speaking slot as per the defined topics in the conference.
               </li>
               <li>Meet with 150-200 Legal Professionals.</li>
               <li>Access to all program. </li>
               <li>Lunch & Coffee during the conference.</li>
-              <li>
-              Conference Bag (Accessories & Goodies).
-              </li>
+              <li>Conference Bag (Accessories & Goodies).</li>
               <li>Participation Certificate.</li>
               <li>One on One Networking Session.</li>
               <li>Promotion on Social Media platforms.</li>
-              <li>Logo in the pre marketing materials prior/during the conference.</li>
+              <li>
+                Logo in the pre marketing materials prior/during the conference.
+              </li>
               <li>Access to attendee’s list post conference.</li>
-              <li>We will publish your firms Bio (services) in our annual Magazine(A4 Size) as well.</li>
+              <li>
+                We will publish your firms Bio (services) in our annual
+                Magazine(A4 Size) as well.
+              </li>
             </ul>
           </div>
 
@@ -309,8 +330,14 @@ const PricingLt = ({ conf }) => {
               <div>
                 <h3> Exhibition Booth </h3>
                 <h5> Standard Price -$̶3̶8̶9̶9̶</h5>
-                <h5> Early Bird Offer - $̶3̶4̶9̶9̶</h5>
-                <h4> Super Early Bird Offer $2999 </h4>
+                <h5>
+                  {" "}
+                  Early Bird Offer - $<span>3499</span> (Current)
+                </h5>
+                <h5>
+                  {" "}
+                  Super Early Bird Offer $ <del>2999</del>(Expired){" "}
+                </h5>
               </div>
 
               <button

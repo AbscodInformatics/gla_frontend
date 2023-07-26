@@ -8,6 +8,14 @@ import PlatinumSpon from "../../HomeTwo/PlatinumSpon";
 const DubaiLegal = () => {
   const cardData = [
     {
+      name: "Raza Mithani",
+      desg: "Managing Partner",
+      company: "Conselis Law",
+      country: "UAE",
+      image: "/images/RazaMithani.jpg",
+      linkedIn: " https://www.linkedin.com/in/raza-mithani-6b25893/",
+    },
+    {
       name: "Narguiz Birk-Petersen",
       desg: "Vice President and Regional General Counsel",
       company: "Takeda",
@@ -21,7 +29,8 @@ const DubaiLegal = () => {
       company: "Airtel Mobile Commerce BV",
       country: "UAE",
       image: "/images/Seuleiman-Morgan.jpg",
-      linkedIn: "https://www.linkedin.com/in/c%C3%AEhan-seuleiman-morgan-5568a22b/",
+      linkedIn:
+        "https://www.linkedin.com/in/c%C3%AEhan-seuleiman-morgan-5568a22b/",
     },
     {
       name: "Bijan Brahmbhatt",
@@ -122,6 +131,9 @@ const DubaiLegal = () => {
     },
   ];
   const attending = [
+    {
+      image: "images/RazaMithaniL.jpg",
+    },
     {
       image: "images/Takeda Pharmaceuticals.jpg",
     },

@@ -11,6 +11,14 @@ import PlatinumSpon from "../../HomeTwo/PlatinumSpon";
 const AmsterdamLegal = () => {
   const cardData = [
     {
+      name: "Marium Razzaq",
+      desg: "Partner",
+      company: "JMR Solicitors",
+      country: "UK",
+      image: "/images/MariumRazzaq.jpg",
+      linkedIn: " https://www.linkedin.com/in/mariumrazzaq/",
+    },
+    {
       name: "Neera Sharma",
       desg: "GC & CEO",
       company: "Sistema Smart Technologies Limited",
@@ -40,7 +48,8 @@ const AmsterdamLegal = () => {
       company: "Taylor Wessing",
       country: "Netherlands",
       image: "/images/Maas-Wim-sit-mobile.jpg",
-      linkedIn: "https://www.taylorwessing.com/en/people/netherlands/amsterdam/wim-maas",
+      linkedIn:
+        "https://www.taylorwessing.com/en/people/netherlands/amsterdam/wim-maas",
     },
     {
       name: "Ritah Sarwari",
@@ -411,8 +420,12 @@ const AmsterdamLegal = () => {
   ];
   const attending = [
     {
+      image: "images/MariumRazzaqLo.jpg",
+    },
+    {
       image: "images/Sistema Asia Logo.jpg",
     },
+
     {
       image: "images/100 years english_page-0001.jpg",
     },
