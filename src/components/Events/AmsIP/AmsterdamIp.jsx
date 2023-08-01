@@ -9,6 +9,14 @@ import PlatinumSpon from "../../HomeTwo/PlatinumSpon";
 const AmsterdamIp = () => {
   const cardData = [
     {
+      name: " DeFeng(Devin) SONG",
+      desg: " Partner",
+      company: "Fieldfisher",
+      country: "China",
+      image: "/images/DeFeng.jpeg",
+      linkedIn: "https://www.linkedin.com/in/songdefeng/",
+    },
+    {
       name: "Julius Handler",
       desg: "Associate",
       company: "Morrison & Foerster LLP",
@@ -30,7 +38,8 @@ const AmsterdamIp = () => {
       company: "Taylor Wessing",
       country: "Netherlands",
       image: "/images/Maas-Wim-sit-mobile.jpg",
-      linkedIn: "https://www.taylorwessing.com/en/people/netherlands/amsterdam/wim-maas",
+      linkedIn:
+        "https://www.taylorwessing.com/en/people/netherlands/amsterdam/wim-maas",
     },
     {
       name: "John Pryor",
@@ -45,7 +54,7 @@ const AmsterdamIp = () => {
       desg: "Group Executive Chairman",
       company: "AW HOLDING INT'L",
       country: "UAE",
-      image: "/images/a-l-speaker29.jpg",
+      image: "/images/Ayman Al-Wadi.jpeg",
       linkedIn: "https://www.linkedin.com/in/ayman-al-wadi/",
     },
     {
@@ -131,6 +140,9 @@ const AmsterdamIp = () => {
     },
   ];
   const attending = [
+    {
+      image: "images/GEORGEYYIANGOU.jpeg",
+    },
     {
       image: "images/100 years english_page-0001.jpg",
     },

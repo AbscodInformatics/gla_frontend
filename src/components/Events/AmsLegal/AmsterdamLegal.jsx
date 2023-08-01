@@ -11,6 +11,22 @@ import PlatinumSpon from "../../HomeTwo/PlatinumSpon";
 const AmsterdamLegal = () => {
   const cardData = [
     {
+      name: " DeFeng(Devin) SONG",
+      desg: " Partner",
+      company: "Fieldfisher",
+      country: "China",
+      image: "/images/DeFeng.jpeg",
+      linkedIn: "https://www.linkedin.com/in/songdefeng/",
+    },
+    {
+      name: "Angeliki Tiligadi",
+      desg: "Compliance and Data Protection Officer",
+      company: "Qover",
+      country: "Belgium",
+      image: "/images/Angeliki.jpeg",
+      linkedIn: "https://www.linkedin.com/in/angeliki-tiligadi/",
+    },
+    {
       name: "Marium Razzaq",
       desg: "Partner",
       company: "JMR Solicitors",
@@ -137,7 +153,7 @@ const AmsterdamLegal = () => {
       desg: "Group Executive Chairman",
       company: "AW HOLDING INT'L",
       country: "UAE",
-      image: "/images/a-l-speaker29.jpg",
+      image: "/images/Ayman Al-Wadi.jpeg",
       linkedIn: "https://www.linkedin.com/in/ayman-al-wadi/",
     },
     {
@@ -419,6 +435,15 @@ const AmsterdamLegal = () => {
     },
   ];
   const attending = [
+    {
+      image: "images/GEORGEYYIANGOU.jpeg",
+    },
+    {
+      image: "images/QOVER_High.jpg",
+    },
+    {
+      image: "images/AngelikiLogo.jpeg",
+    },
     {
       image: "images/MariumRazzaqLo.jpg",
     },
