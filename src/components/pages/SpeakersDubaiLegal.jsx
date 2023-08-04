@@ -8,6 +8,14 @@ class SpeakersDubaiLegal extends React.Component {
   render() {
     const speakers = [
       {
+        name: " Mr. Sergey Medvedev",
+        desg: " Partner",
+        company: " Gorodissky & Partners (UAE)",
+        country: "UAE",
+        image: "/images/Sergey Medvedev-Gorodissky.jpg",
+        linkedIn: " https://www.linkedin.com/in/raza-mithani-6b25893/",
+      },
+      {
         name: "Nicola Jackson",
         desg: "Legal Director",
         company: "Clyde & Co LLP",

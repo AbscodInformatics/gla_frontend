@@ -11,6 +11,30 @@ import PlatinumSpon from "../../HomeTwo/PlatinumSpon";
 const AmsterdamLegal = () => {
   const cardData = [
     {
+      name: " Agnieszka Mencel",
+      desg: "Associate General Counsel",
+      company: "McKinsey & Company",
+      country: " Poland",
+      image: "/images/Agnieszka-logo.jpeg",
+      linkedIn: " https://www.linkedin.com/in/agnieszka-mencel-15096bb1/",
+    },
+    {
+      name: "George Mueller",
+      desg: "Head of IP",
+      company: "TomTom",
+      country: " Netherlands",
+      image: "/images/Georg.jpeg",
+      linkedIn: "https://www.linkedin.com/in/georg-m%C3%BCller-a36056a6/",
+    },
+    {
+      name: "Dawn Sims",
+      desg: "Vice President and Assistant General Counsel",
+      company: "JPMorgan Chase & Co.",
+      country: "USA",
+      image: "/images/Solid_white.png",
+      linkedIn: "https://www.linkedin.com/in/dawn-s-4930245/",
+    },
+    {
       name: " DeFeng(Devin) SONG",
       desg: " Partner",
       company: "Fieldfisher",
@@ -435,6 +459,18 @@ const AmsterdamLegal = () => {
     },
   ];
   const attending = [
+    {
+      image: "images/McK_Logo_RGB_DeepBlue.png",
+    },
+    {
+      image: "images/TomTom-Logo.png",
+    },
+    {
+      image: "images/sangam-university.jpg",
+    },
+    {
+      image: "images/Dawn-Sims-logo.png",
+    },
     {
       image: "images/GEORGEYYIANGOU.jpeg",
     },

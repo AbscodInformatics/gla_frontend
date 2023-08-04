@@ -78,9 +78,7 @@ const AgendaLitigationAMS = () => {
                 10:30 - 10:45
               </TableCell>
               <TableCell></TableCell>
-              <TableCell style={{ color: "red", }}>
-                Networking Break
-              </TableCell>
+              <TableCell style={{ color: "red" }}>Networking Break</TableCell>
             </TableRow>
             <TableRow key="">
               <TableCell>10:45 - 12:00</TableCell>
@@ -408,6 +406,9 @@ const AgendaLitigationAMS = () => {
                 </TableCell>
                 <TableCell>
                   3. Manoj Poonia, Vice President at Effectual Services, India
+                </TableCell>
+                <TableCell>
+                  4. DeFeng(Devin) SONG, Partner at Fieldfisher, China 
                 </TableCell>
               </TableRow>
             </TableRow>

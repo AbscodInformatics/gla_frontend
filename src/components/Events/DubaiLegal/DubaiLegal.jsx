@@ -7,7 +7,14 @@ import PlatinumSpon from "../../HomeTwo/PlatinumSpon";
 
 const DubaiLegal = () => {
   const cardData = [
-    
+    {
+      name: " Mr. Sergey Medvedev",
+      desg: " Partner",
+      company: " Gorodissky & Partners (UAE)",
+      country: "UAE",
+      image: "/images/Sergey Medvedev-Gorodissky.jpg",
+      linkedIn: " https://www.linkedin.com/in/raza-mithani-6b25893/",
+    },
     {
       name: "Nicola Jackson",
       desg: "Legal Director",
@@ -148,10 +155,13 @@ const DubaiLegal = () => {
     },
   ];
   const attending = [
-    
-{
+    {
+      image: "images/GORODISSKY_LOGO.jpg",
+    },
+    {
       image: "images/RazaMithaniL.jpg",
-},{
+    },
+    {
       image: "images/Clyde.jpg",
     },
     {
