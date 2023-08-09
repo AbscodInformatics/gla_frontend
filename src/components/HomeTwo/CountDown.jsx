@@ -9,7 +9,7 @@ class CountDown extends React.Component {
     };
 
     makeTimer = () => {
-        let endTime = new Date("September 11, 2023 17:00:00 PDT");			
+        let endTime = new Date("September 04, 2023 09:00:00 PDT");			
         let endTimeParse = (Date.parse(endTime)) / 1000;
         let now = new Date();
         let nowParse = (Date.parse(now) / 1000);

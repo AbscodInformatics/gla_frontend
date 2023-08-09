@@ -11,6 +11,54 @@ import PlatinumSpon from "../../HomeTwo/PlatinumSpon";
 const AmsterdamLegal = () => {
   const cardData = [
     {
+      name: "Luca Valente",
+      desg: "Co-Founder",
+      company: "TRIPL Protection",
+      country: "Italy",
+      image: "/images/Luca Valente.jpg",
+      linkedIn: "https://www.linkedin.com/in/luca-valente-11767616",
+    },
+    {
+      name: "Samuel Deschamps",
+      desg: "Partner",
+      company: "IPSIDE - IP Law Firm",
+      country: "France",
+      image: "/images/Samuel Deschamps.jpg",
+      linkedIn: "https://www.ipside.com/fr/component/contact/contact/65-samuel-deschamps",
+    },
+    {
+      name: "Yiannos Georgiades",
+      desg: "Managing Partner",
+      company: "Y. GEORGIADES & ASSOCIATES LLC",
+      country: " Cyprus",
+      image: "/images/yiannos.georgiades.jpg",
+      linkedIn: "https://www.linkedin.com/in/yiannosgeorgiades/",
+    },
+    {
+      name: "Gaëtan Lassere",
+      desg: "Managing Partner",
+      company: "Laurent and Charras",
+      country: " France",
+      image: "/images/Lassere.jpg",
+      linkedIn: "https://www.linkedin.com/in/gaetanlassere/",
+    },
+    {
+      name: "Mr. Sachiv Kumar",
+      desg: "Senior Partner",
+      company: "SDS Advocates",
+      country: " India",
+      image: "/images/img5.jpg",
+      linkedIn: "https://www.linkedin.com/in/sachiv-kumar-8a2a5517/",
+    },
+    {
+      name: " Sonya Ebermann",
+      desg: "Counsel",
+      company: "WilmerHale",
+      country: " UK",
+      image: "/images/Ebermann_Sonya.jpg",
+      linkedIn: "https://www.wilmerhale.com/en/people/sonya-ebermann",
+    },
+    {
       name: " Agnieszka Mencel",
       desg: "Associate General Counsel",
       company: "McKinsey & Company",
@@ -19,11 +67,11 @@ const AmsterdamLegal = () => {
       linkedIn: " https://www.linkedin.com/in/agnieszka-mencel-15096bb1/",
     },
     {
-      name: "George Mueller",
+      name: "Dr. Georg Müller",
       desg: "Head of IP",
       company: "TomTom",
       country: " Netherlands",
-      image: "/images/Georg.jpeg",
+      image: "/images/Georgupdated.jpeg",
       linkedIn: "https://www.linkedin.com/in/georg-m%C3%BCller-a36056a6/",
     },
     {
@@ -31,7 +79,7 @@ const AmsterdamLegal = () => {
       desg: "Vice President and Assistant General Counsel",
       company: "JPMorgan Chase & Co.",
       country: "USA",
-      image: "/images/Solid_white.png",
+      image: "/images/Dawn.jpg",
       linkedIn: "https://www.linkedin.com/in/dawn-s-4930245/",
     },
     {
@@ -459,6 +507,18 @@ const AmsterdamLegal = () => {
     },
   ];
   const attending = [
+    {
+      image: "images/Hor01.jpg",
+    },
+    {
+      image: "images/download.jpg",
+    },
+    {
+      image: "images/logo_lc_2coul_bleu_tagline - 1000.png",
+    },
+    {
+      image: "images/Wilmerhale.png",
+    },
     {
       image: "images/McK_Logo_RGB_DeepBlue.png",
     },

@@ -176,7 +176,6 @@ const PricingPage = ({ conf }) => {
             venue="Amsterdam"
           />
         )}
-
         {openSpeaker && (
           <SpeakersForm
             isSubmit={isSubmit}
