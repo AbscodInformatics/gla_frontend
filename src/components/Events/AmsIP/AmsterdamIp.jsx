@@ -9,6 +9,14 @@ import PlatinumSpon from "../../HomeTwo/PlatinumSpon";
 const AmsterdamIp = () => {
   const cardData = [
     {
+      name: "James L. Bell",
+      desg: "Founder and Senior Partner",
+      company: "The Bell Law Firm, P.A.",
+      country: "USA",
+      image: "/images/Office Photo (3).jpg",
+      linkedIn: "https://www.linkedin.com/in/james-bell-50036720/",
+    },
+    {
       name: "Luca Valente",
       desg: "Co-Founder",
       company: "TRIPL Protection",
@@ -221,6 +229,9 @@ const AmsterdamIp = () => {
     },
   ];
   const attending = [
+    {
+      image: "images/Bell-Law-Firm-1.png",
+    },
     {
       image: "images/Hor01.jpg",
     },
