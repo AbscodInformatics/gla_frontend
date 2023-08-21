@@ -143,6 +143,7 @@ const AgendaLitigationAMS = () => {
           >
             10:15 - 10:45
           </div>
+
           <div
             style={{
               width: "80%",
@@ -159,9 +160,12 @@ const AgendaLitigationAMS = () => {
             </span>
             <span style={{ fontWeight: 400 }}>
               Ayman Al-Wadi, Group Executive Chairman at AW HOLDING INT'L, UAE
+              10:15 - 10:45: Trade with Confidence Pre-litigation & Litigation
+              Innovative Supply Chain
             </span>
           </div>
         </div>
+        
         <div
           style={{ display: "flex", marginLeft: "6rem", marginRight: "6rem" }}
         >
@@ -289,7 +293,7 @@ const AgendaLitigationAMS = () => {
               Session 3: &nbsp;
             </span>
             <span style={{ fontWeight: 600 }}>
-              Third Party Due Diligence  &nbsp;
+              Third Party Due Diligence &nbsp;
             </span>
             <span style={{ fontWeight: 400 }}>– A Practical Deep Dive</span>
             <div style={{ display: "flex" }}>

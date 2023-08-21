@@ -13,7 +13,8 @@ class SpeakersDubaiLegal extends React.Component {
         company: " Gorodissky & Partners (UAE)",
         country: "UAE",
         image: "/images/Sergey Medvedev-Gorodissky.jpg",
-        linkedIn: " https://www.linkedin.com/in/raza-mithani-6b25893/",
+        linkedIn:
+          " https://www.gorodissky.com/team/medvedev-sergey-valerevich/",
       },
       {
         name: "Nicola Jackson",

@@ -11,6 +11,71 @@ import PlatinumSpon from "../../HomeTwo/PlatinumSpon";
 const AmsterdamLegal = () => {
   const cardData = [
     {
+      name: "Gaurav Saxena",
+      desg: "Advocate",
+      company: "High Court of Judicature at Delhi",
+      country: "India",
+      image: "/images/Gaurav Saxena.jpg",
+      linkedIn: "https://www.linkedin.com/in/gaurav-saxena-83452958/",
+    },
+    {
+      name: "Adam Leese",
+      desg: "Co-Founder",
+      company: " SecureWeb3",
+      country: "UK",
+      image: "/images/Adam Leese.jpg",
+      linkedIn: "https://www.linkedin.com/in/adam-leese/",
+    },
+    {
+      name: "Dr. Abiola Inniss",
+      desg: "Executive Director and co-founder",
+      company:
+        "Caribbean and Americas Intellectual Property Organization CAAIPO",
+      country: "West Indies",
+      image: "/images/headshot.jpg",
+      linkedIn: "https://www.linkedin.com/in/drabiolainniss/",
+    },
+    {
+      name: "Ryan Pool",
+      desg: "Patner",
+      company: "Millen, White, Zelano & Branigan, PC",
+      country: "USA",
+      image: "/images/Ryan Pool.jpg",
+      linkedIn: "https://www.linkedin.com/in/ryan-pool-b6ab1021/",
+    },
+    {
+      name: "Matthew C. Phillips",
+      desg: "Founding Partner",
+      company: "Laurence & Phillips IP Law",
+      country: "USA",
+      image: "/images/Phillips_77658-3797 hires.jpg",
+      linkedIn: "https://www.linkedin.com/in/matthew-phillips-0926434/",
+    },
+    {
+      name: "Dr. Wieland Groth",
+      desg: "EU Patent Attorney",
+      company: "Patentanwalt Dr. Groth",
+      country: "Germany",
+      image: "/images/img-1-2.jpg",
+      linkedIn: "https://grothpatent.com/person/",
+    },
+    {
+      name: "Ricardo Cali",
+      desg: "Large Corporate account manager",
+      company: "Questel",
+      country: "Germany",
+      image: "/images/Ricardo Cali.jpg",
+      linkedIn: "https://www.linkedin.com/in/ricardocali/",
+    },
+    {
+      name: "Patrick McCutcheon",
+      desg: "Managing Director",
+      company: "IP Europe Official",
+      country: "Belgium",
+      image: "/images/Patrick McCutcheon.jpeg",
+      linkedIn: "https://www.linkedin.com/in/patrick-mccutcheon-7a536711/",
+    },
+    {
       name: "Luca Valente",
       desg: "Co-Founder",
       company: "TRIPL Protection",
@@ -24,7 +89,8 @@ const AmsterdamLegal = () => {
       company: "IPSIDE - IP Law Firm",
       country: "France",
       image: "/images/Samuel Deschamps.jpg",
-      linkedIn: "https://www.ipside.com/fr/component/contact/contact/65-samuel-deschamps",
+      linkedIn:
+        "https://www.ipside.com/fr/component/contact/contact/65-samuel-deschamps",
     },
     {
       name: "Yiannos Georgiades",
@@ -507,6 +573,24 @@ const AmsterdamLegal = () => {
     },
   ];
   const attending = [
+    {
+      image: "images/SecureWeb3-Academy-1.png",
+    },
+    {
+      image: "images/EUIPO.jpg",
+    },
+    {
+      image: "images/MWZB50+ 3CLogo_Print.jpg",
+    },
+    {
+      image: "images/L&P_Law_website_logo_NationalBest_4.png",
+    },
+    {
+      image: "images/IPEuropeOfficial.jpg",
+    },
+    {
+      image: "images/Questel.jpg",
+    },
     {
       image: "images/Hor01.jpg",
     },
