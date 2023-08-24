@@ -165,7 +165,7 @@ const AgendaLitigationAMS = () => {
             </span>
           </div>
         </div>
-        
+
         <div
           style={{ display: "flex", marginLeft: "6rem", marginRight: "6rem" }}
         >
@@ -1063,12 +1063,12 @@ const AgendaLitigationAMS = () => {
           </div>
         </div>
       </div>
-      {/* <div>
+      <div>
         <div
           style={{
             textAlign: "center",
             padding: "10px",
-            background: "#000000",
+            background: "#0092C8",
             margin: "10px",
             color: "white",
             fontWeight: "700",
@@ -1091,7 +1091,7 @@ const AgendaLitigationAMS = () => {
               height: "3rem",
             }}
           >
-            9:15 - 10:30
+            9:15 - 10:15
           </div>
           <div
             style={{
@@ -1104,28 +1104,73 @@ const AgendaLitigationAMS = () => {
               fontWeight: "700",
             }}
           >
-            <span style={{ fontWeight: 700, color: "red" }}>
+            <span style={{ fontWeight: 700, color: "#000000" }}>
               Session: &nbsp;
             </span>
             <span style={{ fontWeight: 600 }}>
               Patent protection and it's role in promoting innovation in sectors
-              such as FMCG, High-tech, Machinery etc
+              such as FMCG, Hightech, Machinery etc
             </span>
             <div style={{ display: "flex" }}>
               <div>Moderator: &nbsp; &nbsp; &nbsp;</div>
-              <div>
-                <div>TBA</div>
-              </div>
-            </div>
-            <div style={{ display: "flex" }}>
               <div>Panelist: &nbsp; &nbsp; &nbsp;</div>
               <div>
+                <ul style={{ padding: "15px" }}>
+                  <li>Dr. Georg Mueller, Head of IP at TomTom, Netherlands</li>
+                  <li>
+                    Patrick McCutcheon, Managing Director at IP Europe Official,
+                    Belgium
+                  </li>
+                  <li>
+                    Dr. Andrea Schuessler, Shareholder at Huber & Schuessler
+                    Germany
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          style={{ display: "flex", marginLeft: "6rem", marginRight: "6rem" }}
+        >
+          <div
+            style={{
+              width: "20%",
+              textAlign: "center",
+              padding: "10px",
+              margin: "10px",
+              background: "#C82D39",
+              color: "white",
+              fontWeight: "700",
+              height: "3rem",
+            }}
+          >
+            10:15 - 10:50
+          </div>
+          <div
+            style={{
+              width: "80%",
+              // textAlign: "center",
+              padding: "10px",
+              background: "#848484",
+              margin: "10px",
+              color: "white",
+              fontWeight: "700",
+            }}
+          >
+            <span style={{ fontWeight: 700, color: "#000000" }}>
+              Special Session &nbsp;
+            </span>
+            <span style={{ fontWeight: 600 }}>
+              Ethics And Professionalism: The Role Of The Attorney When
+              Representing An Artificial Intelligence (Ai) Entity.
+              <br />
+            </span>
+            <div>
+              <div>
                 <div>
-                  <ul style={{padding:'15px'}}>
-                    <li>George Mueller, Head of IP at TomTom, Netherlands</li>
-                    <li>Naveen Suriya, Partner at K&S Partners, India</li>
-                    <li>Joseph Monaghan, Patent Counsel at Volvo Group</li>
-                  </ul>
+                  {" "}
+                  James L. Bell, Founding Partner at THE BELL LAW FIRM, PA, USA
                 </div>
               </div>
             </div>
@@ -1146,12 +1191,11 @@ const AgendaLitigationAMS = () => {
               height: "3rem",
             }}
           >
-            10:30 - 11:00
+            10:50 - 11:15
           </div>
           <div
             style={{
               width: "80%",
-              // textAlign: "center",
               padding: "10px",
               background: "#848484",
               margin: "10px",
@@ -1159,27 +1203,87 @@ const AgendaLitigationAMS = () => {
               fontWeight: "700",
             }}
           >
-          <span style={{ fontWeight: 700, color: "red" }}>
+            <span
+              style={{
+                fontWeight: 700,
+                color: "#C82D39",
+                display: "flex",
+                justifyContent: "space-around",
+              }}
+            >
+              Networking Coffee Break
+            </span>
+          </div>
+        </div>
+
+        <div
+          style={{ display: "flex", marginLeft: "6rem", marginRight: "6rem" }}
+        >
+          <div
+            style={{
+              width: "20%",
+              textAlign: "center",
+              padding: "10px",
+              margin: "10px",
+              background: "#C82D39",
+              color: "white",
+              fontWeight: "700",
+              height: "3rem",
+            }}
+          >
+            11:15 - 13:00
+          </div>
+          <div
+            style={{
+              width: "80%",
+              padding: "10px",
+              background: "#848484",
+              margin: "10px",
+              color: "white",
+              fontWeight: "700",
+            }}
+          >
+            <span style={{ fontWeight: 700, color: "#000000" }}>
               Session: &nbsp;
             </span>
             <span style={{ fontWeight: 600 }}>
-            IP GLOBALIZATION: IP Portfolios Across Multiple Jurisdiction At The Same Time
+              IP GLOBALIZATION: IP Portfolios Across Multiple Jurisdiction At
+              The Same Time &nbsp;
             </span>
+
             <div style={{ display: "flex" }}>
               <div>Moderator: &nbsp; &nbsp; &nbsp;</div>
               <div>
-                <div>TBA</div>
-              </div>
-            </div>
-            <div style={{ display: "flex" }}>
-              <div>Panelist: &nbsp; &nbsp; &nbsp;</div>
-              <div>
                 <div>
-                  <ul style={{padding:'15px'}}>
-                    <li>Sukla Chandra, Senior Managing Director at GE, India</li>
-                    <li>Deepika Dhar, IP Management & Technology transfer at IIT Delhi, India</li>
-                  </ul>
+                  {" "}
+                  Ryan Pool, Partner at Millen White Zelano & Branigan, USA
                 </div>
+                <div>Panelist: &nbsp; &nbsp; &nbsp;</div>
+                <ul style={{ padding: "15px" }}>
+                  <li>Sukla Chandra, Senior Managing Director at GE, India</li>
+                  <li>
+                    Deepika Dhar, IP Management & Technology transfer at IIT
+                    Delhi, India
+                  </li>
+                  <li>
+                    Ryan Pool, Partner at Millen White Zelano & Branigan, USA
+                  </li>
+                  <li>
+                    {" "}
+                    Matthew C. Phillips, Partner at Laurence & Phillips IP Law,
+                    USA
+                  </li>
+                  <li>
+                    Dr. Abiola Inniss, Executive Director at Caribbean and
+                    Americas Intellectual Property Organization CAAIPO
+                    Caribbean,
+                  </li>
+                  <li>
+                    Ricardo Cali, Large Corporate account manager at Questel,
+                    Germany
+                  </li>
+                  <li>Daniel Pereira, Managing Partner at Oblon, USA</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -1199,12 +1303,11 @@ const AgendaLitigationAMS = () => {
               height: "3rem",
             }}
           >
-          10:30 - 11:00
+            13:00 - 14:00
           </div>
           <div
             style={{
               width: "80%",
-              // textAlign: "center",
               padding: "10px",
               background: "#848484",
               margin: "10px",
@@ -1212,29 +1315,16 @@ const AgendaLitigationAMS = () => {
               fontWeight: "700",
             }}
           >
-          <span style={{ fontWeight: 700, color: "red" }}>
-              Session: &nbsp;
+            <span
+              style={{
+                fontWeight: 700,
+                color: "#C82D39",
+                display: "flex",
+                justifyContent: "space-around",
+              }}
+            >
+              Networking Luncheon
             </span>
-            <span style={{ fontWeight: 600 }}>
-            Unified Patent Court: Pre-Launch Insights and your European patenting strategy
-            </span>
-            <div style={{ display: "flex" }}>
-              <div>Moderator: &nbsp; &nbsp; &nbsp;</div>
-              <div>
-                <div>TBA</div>
-              </div>
-            </div>
-            <div style={{ display: "flex" }}>
-              <div>Panelist: &nbsp; &nbsp; &nbsp;</div>
-              <div>
-                <div>
-                  <ul style={{padding:'15px'}}>
-                    <li>Dr. Wim Maas, Partner at Taylor Wessing, Netherlands</li>
-                    <li>Samuel Deschamps, Partner at Santarelli Group, Germany</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
         <div
@@ -1252,12 +1342,11 @@ const AgendaLitigationAMS = () => {
               height: "3rem",
             }}
           >
-          10:30 - 11:00
+            14:00 - 15:00
           </div>
           <div
             style={{
               width: "80%",
-              // textAlign: "center",
               padding: "10px",
               background: "#848484",
               margin: "10px",
@@ -1265,32 +1354,87 @@ const AgendaLitigationAMS = () => {
               fontWeight: "700",
             }}
           >
-          <span style={{ fontWeight: 700, color: "red" }}>
+            <span style={{ fontWeight: 700, color: "#000000" }}>
               Session: &nbsp;
             </span>
             <span style={{ fontWeight: 600 }}>
-            Maintaining and Navigating Trade Secret Strategies in a Hybrid Workplace
+              Unified Patent Court: Pre-Launch Insights and your European
+              patenting strategy &nbsp;
             </span>
+
+            <div>Moderator: &nbsp; &nbsp; &nbsp;</div>
             <div style={{ display: "flex" }}>
-              <div>Moderator: &nbsp; &nbsp; &nbsp;</div>
+              <div>Panelist: </div>
               <div>
-                <div>TBA</div>
-              </div>
-            </div>
-            <div style={{ display: "flex" }}>
-              <div>Panelist: &nbsp; &nbsp; &nbsp;</div>
-              <div>
-                <div>
-                  <ul style={{padding:'15px'}}>
-                    <li>Dr. Wim Maas, Partner at Taylor Wessing, Netherlands</li>
-                    <li>Samuel Deschamps, Partner at Santarelli Group, Germany</li>
-                  </ul>
-                </div>
+                <ul style={{ padding: "15px" }}>
+                  <li>Dr. Wim Maas, Partner at Taylor Wessing, Netherlands</li>
+                  <li>
+                    Samuel Deschamps, Partner at Santarelli Group, Germany
+                  </li>
+                  <li>Luca Valente, Lawyer at inLAWation, Italy</li>
+                  <li>Marianne Schaffner, Partner at Reed Smith LLP, France</li>
+                  <li>
+                    Dr. Wieland Groth, Patent Attorney at PATENT ATTORNEY DR.
+                    GROTH, Germany
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-      </div> */}
+
+        <div
+          style={{ display: "flex", marginLeft: "6rem", marginRight: "6rem" }}
+        >
+          <div
+            style={{
+              width: "20%",
+              textAlign: "center",
+              padding: "10px",
+              margin: "10px",
+              background: "#C82D39",
+              color: "white",
+              fontWeight: "700",
+              height: "3rem",
+            }}
+          >
+            15:00 - 15:30
+          </div>
+          <div
+            style={{
+              width: "80%",
+              padding: "10px",
+              background: "#848484",
+              margin: "10px",
+              color: "white",
+              fontWeight: "700",
+            }}
+          >
+            <span style={{ fontWeight: 700, color: "#000000" }}>
+              Session : &nbsp;
+            </span>
+            <span style={{ fontWeight: 600 }}>
+              Maintaining and Navigating Trade Secret Strategies in a Hybrid
+              Workplace
+            </span>
+
+            <div>Moderator: &nbsp; &nbsp; &nbsp;</div>
+            <div style={{ display: "flex" }}>
+              <div>Panelist: &nbsp; &nbsp; &nbsp;</div>
+              <div>
+                <ul style={{ padding: "15px" }}>
+                  <li>
+                    John Pryor, CEO / Founder at Exalt IP Business Intellectual
+                    Property, UK
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </div>
     </div>
   );
 };

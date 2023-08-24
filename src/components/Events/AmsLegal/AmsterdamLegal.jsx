@@ -11,6 +11,38 @@ import PlatinumSpon from "../../HomeTwo/PlatinumSpon";
 const AmsterdamLegal = () => {
   const cardData = [
     {
+      name: "Dr. Andrea Schuessler",
+      desg: "Shareholder",
+      company: "Huber & Schuessler",
+      country: "Germany",
+      image: "/images/Andrea Schüssler.jpg",
+      linkedIn: " https://www.patservice.de/dr_andrea_schuessler.php.html",
+    },
+    {
+      name: "Daniel J. Pereira",
+      desg: "Managing Partner",
+      company: "Oblon, McClelland, Maier & Neustadt, L.L.P",
+      country: "USA",
+      image: "/images/Pereira_Daniel Vertical WEB.png",
+      linkedIn: "https://www.oblon.com/daniel-j-pereira-ph-d",
+    },
+    {
+      name: "Begüm Ertürk",
+      desg: "Legal Manager",
+      company: "Sabancı Holding",
+      country: "Turkey",
+      image: "/images/Begüm.jpg",
+      linkedIn: " https://www.linkedin.com/in/beg%C3%BCm-e-b575a72a/",
+    },
+    {
+      name: "Lucy Pert",
+      desg: "Partner",
+      company: "Hausfeld",
+      country: " UK",
+      image: "/images/Lucy Pert.jpg",
+      linkedIn: " https://www.hausfeld.com/en-gb/who-we-are/lucy-pert/",
+    },
+    {
       name: "Gaurav Saxena",
       desg: "Advocate",
       company: "High Court of Judicature at Delhi",
@@ -573,6 +605,18 @@ const AmsterdamLegal = () => {
     },
   ];
   const attending = [
+    {
+      image: "images/Oblon.png",
+    },
+    {
+      image: "images/Huber & Schuessler,.gif",
+    },
+    {
+      image: "images/sabanci.png",
+    },
+    {
+      image: "images/Hausfeld_ForTheChallenge_Logo_RGB_Black.png",
+    },
     {
       image: "images/SecureWeb3-Academy-1.png",
     },

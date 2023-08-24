@@ -7,6 +7,22 @@ import LaxDiv from "../Shared/LaxDiv";
 const SpeakersAmsterdamIP = () => {
   const cardData = [
     {
+      name: "Dr. Andrea Schuessler",
+      desg: "Shareholder",
+      company: "Huber & Schuessler",
+      country: "Germany",
+      image: "/images/Andrea Schüssler.jpg",
+      linkedIn: " https://www.patservice.de/dr_andrea_schuessler.php.html",
+    },
+    {
+      name: "Daniel J. Pereira",
+      desg: "Managing Partner",
+      company: "Oblon, McClelland, Maier & Neustadt, L.L.P",
+      country: "USA",
+      image: "/images/Pereira_Daniel Vertical WEB.png",
+      linkedIn: "https://www.oblon.com/daniel-j-pereira-ph-d",
+    },
+    {
       name: "Dr. Abiola Inniss",
       desg: "Executive Director and co-founder",
       company:

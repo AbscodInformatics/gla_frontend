@@ -8,6 +8,22 @@ import PlatinumSpon from "../../HomeTwo/PlatinumSpon";
 const DubaiLegal = () => {
   const cardData = [
     {
+      name: "Parnika Chaturvedi",
+      desg: "Partner",
+      company: "King & Wood Mallesons",
+      country: "UAE",
+      image: "/images/Parnika Chaturvedi.jpg",
+      linkedIn: " https://www.kwm.com/global/en/people/parnika-chaturvedi.html",
+    },
+    {
+      name: " Felipe Arboleda Márquez",
+      desg: " Legal Director",
+      company: "CHEP",
+      country: "UAE",
+      image: "/images/Felipe Arboleda.jpg",
+      linkedIn: "https://www.linkedin.com/in/felipearboledamarquez/",
+    },
+    {
       name: " Mr. Sergey Medvedev",
       desg: " Partner",
       company: " Gorodissky & Partners (UAE)",
@@ -155,6 +171,12 @@ const DubaiLegal = () => {
     },
   ];
   const attending = [
+    {
+      image: "images/1200px-CHEP_(Brambles)_logo.svg.png",
+    },
+    {
+      image: "images/King & Wood Mallesons.jpg",
+    },
     {
       image: "images/GORODISSKY_LOGO.jpg",
     },
